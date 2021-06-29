@@ -12,11 +12,12 @@ body {
 	display: none;
 }
 .peach {
-	background-color: #FFDAB9;
+	/* background-color: #FFDAB9; */
 	/* background-image: url('https://media.giphy.com/media/yNFsoLskwEBYA/giphy.gif'); */
-	/* background-repeat: no-repeat; */
-	/* background-size: 100% 600%; */
-  	/* background-size: auto; */
+	background-image: url('1462224.jpeg');
+	background-repeat: no-repeat;
+	background-size: 100% 100vh !important;
+  	background-size: auto;
 	
 }
 .peach-after {
@@ -139,7 +140,7 @@ body {
 	animation: bulb_glow_yellow linear 5s;
 }
 
-@-webkit-keyframes bulb_glow_yellow {
+/* @-webkit-keyframes bulb_glow_yellow {
 	0%{
 		background-image: url('bulb.png');
 		opacity: 0;
@@ -203,7 +204,7 @@ body {
 		background-image: url('bulb_yellow.png');
 		opacity: 1;
 	}
-}
+} */
 
 .bulb-glow-red {
 	background-image: url('bulb_red.png');
@@ -1256,7 +1257,7 @@ audio {
 .balloon-border{
 	position: fixed;
 	top:100%;
-	opacity: 0.5;
+	/* opacity: 0; */
 	z-index: 9999;
 }
 .control-panel {
@@ -1272,14 +1273,14 @@ audio {
 	margin-top: 50px;
 }
 .message {
-	margin-top: 200px;
+	margin-top: 230px;
 	display: none;
 }
 .message p {
 	font-family: 'Signika', sans-serif;
 	font-size: 30px;
 	text-transform: uppercase;
-	color: #C4515C;
+	color: #f1dcde;
 	text-shadow: 2px 2px 2px #FFF;
 	display: none;
 	font-weight: bold;
