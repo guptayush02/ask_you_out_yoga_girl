@@ -36,7 +36,12 @@ $('document').ready(function(){
 			$('#play').fadeIn('slow');
 		});
 	});
+	$('#play').click(() => {
+		console.log("click play")
+		$('.title_message').css('display', 'block');
+	})
 	$('#play').click(function(){
+		console.log("play")
 		var audio = $('.song')[0];
         audio.play();
         $('#bulb_yellow').addClass('bulb-glow-yellow-after');
@@ -53,6 +58,7 @@ $('document').ready(function(){
 	});
 
 	$('#balloons_flying').click(function(){
+		$('.title_message').css('display', 'none');
 		$('.bannar').addClass('bannar-come');
 		$(this).fadeOut('slow').delay(6000).promise().done(function(){
 			$('#story').fadeIn('slow');
