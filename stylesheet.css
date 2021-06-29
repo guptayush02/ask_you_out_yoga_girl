@@ -13,8 +13,8 @@ body {
 }
 .peach {
 	/* background-color: #FFDAB9; */
-	/* background-image: url('https://media.giphy.com/media/yNFsoLskwEBYA/giphy.gif'); */
-	background-image: url('1462224.jpeg');
+	background-image: url('Artboard1.png');
+	/* background-image: url('bcac2daf-ddc6-433e-9809-c707d61fa631.jpg'); */
 	background-repeat: no-repeat;
 	background-size: 100% 100vh !important;
   	background-size: auto;
@@ -1099,18 +1099,18 @@ audio {
 	display: none;
 }
 #b1,#b11 {
-	background-image: url('b1.png');
+	background-image: url('d.png');
 }
 #b2,#b22 {
-	background-image: url('b2.png');
+	background-image: url('a.png');
 }
 #b3,#b33 {
-	background-image: url('b3.png');
+	background-image: url('t.png');
 }
 #b4,#b44{
-	background-image: url('b4.png');
+	background-image: url('e.png');
 }
-#b5,#b55{
+/* #b5,#b55{
 	background-image: url('b5.png');
 }
 #b6,#b66{
@@ -1118,7 +1118,7 @@ audio {
 }
 #b7,#b77{
 	background-image: url('b7.png');
-}
+} */
 .balloons-rotate-behaviour-one {
 	-webkit-animation: balloons_rotate_one linear 10s infinite;
 	-webkit-transform: rotate(30deg);
@@ -1280,7 +1280,7 @@ audio {
 	font-family: 'Signika', sans-serif;
 	font-size: 30px;
 	text-transform: uppercase;
-	color: #f1dcde;
+	color: #050001;
 	text-shadow: 2px 2px 2px #FFF;
 	display: none;
 	font-weight: bold;
